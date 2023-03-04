@@ -201,11 +201,11 @@ body {
     margin: 5px;
   }
 }
-.content {
+/* .content {
 
   flex-grow: 1;
   background-color:#F5EFED;
-  }
+  } */
 
  
  
@@ -246,7 +246,7 @@ padding-top: 40px;
 
 .all-wrap {
   margin: 20px;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
@@ -348,6 +348,7 @@ input[type="checkbox"]:focus{
 }
 
 .input-wrap button {
+  margin-left: 130px;
   cursor: pointer;
   padding: 15px 60px;
   border-radius: 30px;
