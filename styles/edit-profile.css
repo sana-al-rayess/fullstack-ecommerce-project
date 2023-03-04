@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-direction: column;
-    background-color:#F2E2C4;
+    background-color: #faf9f6;
     height: 20vh;
 }
 
@@ -19,12 +19,15 @@
     display: flex;
     align-items: center;
     margin-right: 20px;
-  }
+    /* position: absolute; */
+}
 
 .logo {
     height: 70px;
     width: auto;
- 
+    /* padding-left: 20px;
+    margin-top: 20px; */
+    /* position: relative; */
     
   padding-top: 40px;
 }
@@ -33,6 +36,8 @@
 
     text-align: center;
     font-size: 30px;
+    /* position: relative; */
+    /* padding-left: 130px; */
     font-weight: 1000;
     padding-top: 40px;
 }
@@ -88,21 +93,6 @@
 .icons:hover {
     transform: scale(1.2);
   }
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Julius Sans One';
-}
-
-.content {
-    height: 50vh;
-    flex-grow: 1;
-    
-}
 
 .footer {
     display: flex;
@@ -202,28 +192,162 @@ body {
       }
   }
   
-  /* copy header and footer till this line only */
+  /* 
+.content {
+  height: 50vh;
+  flex-grow: 1;
   
-  .video-container {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
+} */
+.image-diamond {
+  height: 70px;
+  width: auto;
+  padding-top: 40px;
+}
+.shop-name1 {
+
+  text-align: center;
+  font-size: 30px;
+  /* position: relative; */
+  /* padding-left: 130px; */
+  font-weight: 1000;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Julius Sans One';
+}
+.logo {
+  height: 70px;
+  width: auto;
+  /* padding-left: 20px;
+  margin-top: 20px; */
+  /* position: relative; */
   
-  video {
-    width: 100%;
-    height: auto;
-    outline: none;
+padding-top: 40px;
+}
+
+
+.all-wrap {
+  margin: 20px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); */
+
+}
+.image-wrap {
+  background-color: #f6f1e4;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 20px;
+  /* border-radius: 5px; */
+  /* width: 50%; */
+ 
+}
+@media (max-width: 1200px) {
+  .image-wrap{
+    margin-bottom: 0px;
   }
+}
+
+.signup-wrap {
+  width: 500px;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+  background-color: white;
+  /* border-radius: 5px; */
+  margin-bottom: 20px;
+}
+
+.signup-top {
+  padding: 40px 40px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+  /* color: #3a99d0; */
+
+
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+
+}
+
+.input-wrap p {
+  font-size: 13px;
+  color: #4e585f;
+
+}
+.input-wrap span {
+  color: #BFA87E;
+  font-weight: 600;
+  cursor: pointer;     
+}
+
+.input-wrap input {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #f6f1e4;
+  transition: 500ms ease all;
+}
+
+.input-wrap input:focus {
+  outline: none;
+  box-shadow: 0 1px 0 0 #BFA87E;
+  border-color: #F2E2C4;
+  border-radius: 2px;
+}
+
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+input[type="checkbox"]:focus{
   
-  video::-webkit-media-controls {
-    display: none !important;
-  }
+  outline: none;
+  box-shadow: none;
+  border-color: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 15px 60px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  background-color: #BFA87E;
+  margin-right: 16px;
+  transition: 500ms ease all;
+}
+button:hover {
+  background-color: #A68D60;
+  transform: scale(0.98);
+}
+
   
-  video::-webkit-media-controls-play-button {
-    display: none !important;
-  }
-  
-  video::-webkit-media-controls-start-playback-button {
-    display: none !important;
-  }
