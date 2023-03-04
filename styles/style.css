@@ -14,15 +14,26 @@
 	justify-content: flex-start;
 
 }
-.logo {
+.logo-div {
 	display: flex;
 	align-items: center;
-	margin-right: 20px;
+	margin-right: 20px;    
+    position:absolute;
+}
+.logo{
+    height: 70px;
+    width: auto;
+    padding-left: 20px;
+    margin-top: 20px;
+    position: relative;
 }
 
 .shop-name {
 	
 	text-align: center;
+    font-size: 30px;
+    position: relative;
+    padding-left: 130px;
 }
 
 
@@ -40,8 +51,9 @@
     justify-content: flex-end;
 }
 .icons{
-    height: 50%;
+    height: 20px;
     width: auto;
+    padding: 10px;
 }
 
 body {
