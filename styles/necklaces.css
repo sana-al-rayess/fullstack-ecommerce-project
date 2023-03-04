@@ -272,3 +272,25 @@ body {
 .product_description1{
     width: 100%;
 }   
+.video-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  outline: none;
+}
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
