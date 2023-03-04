@@ -82,7 +82,7 @@ body {
 .slogan {
     flex: 1;
     background-color: #F2E2C4;
-
+    padding: 20px;
     height: 100%;
 
 }
@@ -90,15 +90,27 @@ body {
 .socialmedia {
     flex: 1;
     background-color: #F2E2C4;
-
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
 
 }
+.socialmedia-item{
+    display: flex;
+    
+}
+.socialmedia-name{
+    padding: 10px;
+}
+
 
 .newsletter {
     flex: 1;
     background-color: #F2E2C4;
     height: 100%;
+    padding: 20px;
 
 }
 
