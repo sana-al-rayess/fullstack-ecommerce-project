@@ -212,6 +212,8 @@ body {
   } */
   .bracelets_title{
     text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
   }
   .container{
     display: flex;
