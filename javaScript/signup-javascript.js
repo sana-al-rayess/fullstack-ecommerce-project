@@ -8,7 +8,7 @@ const passwordInput = document.querySelector('#password');
 const checkbox = document.querySelector('input[type="checkbox"]');
 
 const submitButton = document.querySelector('#submit-button');
-let flag1 =false;
+
 submitButton.addEventListener('click', (event)=> {
     event.preventDefault();
     if(firstNameInput.value.trim() === ''){
