@@ -5,6 +5,7 @@ const emailInput = document.querySelector('#email');
 const bDateInput = document.querySelector('#b-date');
 const passwordInput = document.querySelector('#password');
 
+const checkbox = document.querySelector('input[type="checkbox"]');
 
 const submitButton = document.querySelector('#submit-button');
 let flag1 =false;
@@ -32,5 +33,15 @@ submitButton.addEventListener('click', (event)=> {
       alert('password must be at least 8 characters.');
       return;
     }
+    if(!checkbox.checked){
+        alert('read terms and conditions and check the box');
+        return;
+
+    } else{
+       
+    }
+    
+
     flag1 =true;
+    alert(flag1);
 });
