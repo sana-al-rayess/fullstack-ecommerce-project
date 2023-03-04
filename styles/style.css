@@ -249,7 +249,6 @@ video::-webkit-media-controls-start-playback-button {
   display: flex;
   flex-direction: row;
   justify-content: center;
- 
 }
 .collage1 img {
   margin-right: 2cm;
@@ -258,14 +257,34 @@ video::-webkit-media-controls-start-playback-button {
 .collage1 img:last-child {
   margin-right: 0;
 }
+
 .categories{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 
 }
+
 .img-cat{
-  height: 500px;
-  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.img-cat:hover {
+  transform: rotate(5deg);
+}
+.shop-by-cat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.shop-by-cat-title{
+  text-align: center;
+  font-weight: 500;
+  align-items: center;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
