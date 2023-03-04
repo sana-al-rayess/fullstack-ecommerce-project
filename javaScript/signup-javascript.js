@@ -39,12 +39,6 @@ submitButton.addEventListener('click', (event)=> {
 
     } 
    
-//     const firstNameInput = document.querySelector('#first-name');
-// const lastNameInput = document.querySelector('#last-name');
-// const userNameInput = document.querySelector('#user-name');
-// const emailInput = document.querySelector('#email');
-// const bDateInput = document.querySelector('#b-date');
-// const passwordInput = document.querySelector('#password');
 
 const userData = {
     firstName: firstNameInput.value,
