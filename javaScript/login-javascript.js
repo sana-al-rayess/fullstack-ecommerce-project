@@ -9,7 +9,7 @@ loginButton.addEventListener('click',(event)=>{
         return;
     }
     if(passwordInput.value.trim()===''){
-        alert("please enter  correct password.");
+        alert("please enter password.");
         return;
     }
     const arr =passwordInput.value.split('')
