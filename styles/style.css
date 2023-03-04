@@ -353,12 +353,20 @@ video::-webkit-media-controls-start-playback-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
   background-color: #F5EFED;
-  color: black;
-  font-weight: bold;
+  color: #A68D60 ;
+  font-weight: 300;
   font-size: 18px;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
+.product_description_list {
+  list-style:square;
+  margin: 0;
+  padding-top: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #A68D60;
+}
