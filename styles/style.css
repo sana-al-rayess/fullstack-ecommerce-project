@@ -8,7 +8,23 @@
 .title {
     height: 70%;
     width: auto;
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+
 }
+.logo {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.shop-name {
+	
+	text-align: center;
+}
+
 
 .nav-bar {
     height: 30%;
@@ -17,8 +33,15 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-family: 'Julius Sans One';
     font-weight: 600;
+}
+.header-icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.icons{
+    height: 50%;
+    width: auto;
 }
 
 body {
@@ -27,6 +50,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Julius Sans One';
 }
 
 .content {
@@ -44,7 +68,7 @@ body {
 
 .slogan {
     flex: 1;
-    background-color: rgb(124, 247, 124);
+    background-color: #F2E2C4;
 
     height: 100%;
 
@@ -52,7 +76,7 @@ body {
 
 .socialmedia {
     flex: 1;
-    background-color: rgb(128, 128, 230);
+    background-color: #F2E2C4;
 
     height: 100%;
 
@@ -60,7 +84,7 @@ body {
 
 .newsletter {
     flex: 1;
-    background-color: rgb(237, 159, 237);
+    background-color: #F2E2C4;
     height: 100%;
 
 }
@@ -70,3 +94,4 @@ body {
     margin: 5px;
         
 }
+
