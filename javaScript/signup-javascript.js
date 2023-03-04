@@ -37,11 +37,25 @@ submitButton.addEventListener('click', (event)=> {
         alert('read terms and conditions and check the box');
         return;
 
-    } else{
-       
-    }
-    
+    } 
+   
+//     const firstNameInput = document.querySelector('#first-name');
+// const lastNameInput = document.querySelector('#last-name');
+// const userNameInput = document.querySelector('#user-name');
+// const emailInput = document.querySelector('#email');
+// const bDateInput = document.querySelector('#b-date');
+// const passwordInput = document.querySelector('#password');
 
-    flag1 =true;
-    alert(flag1);
+const userData = {
+    firstName: firstNameInput.value,
+    lastName: lastNameInput.value,
+    userName: userNameInput.value,
+    email: emailInput.value,
+    dateOfBirth: bDateInput.value,
+    password: passwordInput.value,
+  };
+  const data = JSON.stringify(userData);
+  console.log(data);
+   
+
 });
