@@ -220,7 +220,6 @@ body {
     justify-content: space-between;
     margin: 30px;
     padding: 20px;
-    flex-wrap: wrap;
     border-bottom: 4px dotted #A68D60;
 
   }
