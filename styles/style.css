@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-color: #F2DABD;
+  background-color: #F5EFED;
   height: 20vh;
 }
 
@@ -24,8 +24,6 @@
 .logo {
   height: 70px;
   width: auto;
-
-
   padding-top: 40px;
 }
 
@@ -47,12 +45,12 @@
   justify-content: center;
   font-weight: 600;
   padding: 10px;
-
-}
+ }
 
 .nav-item {
   padding: 10px;
   margin: 5px;
+  cursor: pointer;
 }
 
 .nav-item::before {
@@ -86,6 +84,7 @@
   width: auto;
   padding: 10px;
   transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .icons:hover {
@@ -263,8 +262,10 @@ video::-webkit-media-controls-start-playback-button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
 }
 .img-cat{
   height: 500px;
   width: auto;
+  cursor: pointer;
 }
