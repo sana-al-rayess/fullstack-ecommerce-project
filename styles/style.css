@@ -9,18 +9,20 @@
     height: 70%;
     width: auto;
     display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 
 }
+
 .logo-div {
-	display: flex;
-	align-items: center;
-	margin-right: 20px;    
-    position:absolute;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: absolute;
 }
-.logo{
+
+.logo {
     height: 70px;
     width: auto;
     padding-left: 20px;
@@ -29,8 +31,8 @@
 }
 
 .shop-name {
-	
-	text-align: center;
+
+    text-align: center;
     font-size: 30px;
     position: relative;
     padding-left: 130px;
@@ -47,15 +49,21 @@
     justify-content: flex-start;
     font-weight: 600;
 }
-.header-icons{
+
+.header-icons {
     display: flex;
     justify-content: flex-end;
 }
-.icons{
+
+.icons {
     height: 20px;
     width: auto;
     padding: 10px;
+    transition: transform 0.2s ease-in-out;
 }
+.icons:hover {
+    transform: scale(1.2);
+  }
 
 body {
     margin: 0;
@@ -97,11 +105,13 @@ body {
     padding: 20px;
 
 }
-.socialmedia-item{
+
+.socialmedia-item {
     display: flex;
-    
+
 }
-.socialmedia-name{
+
+.socialmedia-name {
     padding: 10px;
 }
 
@@ -111,12 +121,56 @@ body {
     background-color: #F2E2C4;
     height: 100%;
     padding: 20px;
+    flex-direction: column;
 
+}
+
+.form {
+    padding-top: 20px;
+}
+
+.subscribe-button {
+    background-color: #F2E2C4;
+    border: 2px solid #A68D60;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+.subscribe-button:hover {
+    background-color: #d1bb91;;
+    border-color: #141414;
+  }
+
+.space {
+    height: 40%;
 }
 
 .nav-item {
     padding: 10px;
     margin: 5px;
-        
 }
-
+.nav-item::before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .nav-item:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  
+  
+  
+  
