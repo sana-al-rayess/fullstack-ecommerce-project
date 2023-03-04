@@ -271,7 +271,13 @@ body {
    */
 .product_description1{
     width: 100%;
-}   
+}  
+.product_description3{
+    width: 100%;
+}  
+.product_description5{
+    width: 100%;
+}  
 .video-container {
   width: 100%;
   height: auto;
@@ -294,3 +300,9 @@ video::-webkit-media-controls-play-button {
 video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
+.product_description4{
+    width: 150%;
+} 
+.product_description6{
+    width: 150%;
+} 
