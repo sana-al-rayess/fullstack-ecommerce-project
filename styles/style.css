@@ -200,6 +200,27 @@ body {
   .socialmedia-item {
     margin: 5px;
   }
+  .card {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  /* .product_description_list {
+    padding-left: 20px;
+  }
+  
+  .product_description_list li {
+    margin-bottom: 10px;
+  } */
+  .card .back {
+    font-size: 5px;
+    padding: 10px;
+  }
+  
+  .product_description_list {
+    font-size: 5px;
+    padding-top: 0;
+  }
 }
 .content {
 
@@ -312,7 +333,8 @@ video::-webkit-media-controls-start-playback-button {
   height: 500px;
   position: relative;
   perspective: 1000px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+ 
 }
 
 .front, .back {
@@ -369,4 +391,7 @@ video::-webkit-media-controls-start-playback-button {
   font-size: 16px;
   line-height: 1.5;
   color: #A68D60;
+}
+.feedback{
+  
 }
