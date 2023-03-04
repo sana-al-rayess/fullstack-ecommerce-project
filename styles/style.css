@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #F2E2C4;
+    background-color: #faf9f6;
     height: 20vh;
 }
 
@@ -34,6 +34,7 @@
     font-size: 30px;
     position: relative;
     padding-left: 130px;
+    font-weight: 1000;
 }
 
 
