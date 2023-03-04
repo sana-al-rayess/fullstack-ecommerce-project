@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #faf9f6;
+    background-color:#F2E2C4;
     height: 20vh;
 }
 
@@ -19,15 +19,12 @@
     display: flex;
     align-items: center;
     margin-right: 20px;
-    /* position: absolute; */
-}
+  }
 
 .logo {
     height: 70px;
     width: auto;
-    /* padding-left: 20px;
-    margin-top: 20px; */
-    /* position: relative; */
+ 
     
   padding-top: 40px;
 }
@@ -36,8 +33,6 @@
 
     text-align: center;
     font-size: 30px;
-    /* position: relative; */
-    /* padding-left: 130px; */
     font-weight: 1000;
     padding-top: 40px;
 }
@@ -207,6 +202,28 @@ body {
       }
   }
   
+  /* copy header and footer till this line only */
   
+  .video-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
   
+  video {
+    width: 100%;
+    height: auto;
+    outline: none;
+  }
   
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+  
+  video::-webkit-media-controls-play-button {
+    display: none !important;
+  }
+  
+  video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+  }
