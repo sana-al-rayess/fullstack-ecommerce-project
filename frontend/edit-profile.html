@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles/signup-style.css">
+    <link rel="stylesheet" type="text/css" href="styles/edit-profile.css">
     <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
 
     <title>E-Commerce Team Project</title>
@@ -25,16 +25,15 @@
             <img class="icons" src="./images/bag.png" alt="shoppingbag">
 
         </div>
-        </header>
-        <div class="nav-bar">
-            <div class="nav-item" onclick="window.location.href = 'main.html';">Home</div>
-            <div class="nav-item" onclick="window.location.href = 'necklaces.html';">Necklaces</div>
-            <div class="nav-item" onclick="window.location.href = 'ring.html';">Rings</div>
-            <div class="nav-item" onclick="window.location.href = 'earrings.html';">Earrings</div>
-            <div class="nav-item" onclick="window.location.href = 'bracelets.html';">BRACELETS</div>
-            <div class="nav-item">About Us</div>
-        </div>
-
+    </header>
+    <div class="nav-bar">
+        <div class="nav-item" onclick="window.location.href = 'main.html';">Home</div>
+        <div class="nav-item" onclick="window.location.href = 'necklaces.html';">Necklaces</div>
+        <div class="nav-item" onclick="window.location.href = 'ring.html';">Rings</div>
+        <div class="nav-item" onclick="window.location.href = 'earrings.html';">Earrings</div>
+        <div class="nav-item" onclick="window.location.href = 'bracelets.html';">BRACELETS</div>
+        <div class="nav-item" onclick="window.location.href = 'about-us.html';">About Us</div>
+    </div>
     <div class="all-wrap">
         <div class="image-wrap">
             
@@ -49,34 +48,26 @@
         <div class="signup-wrap">
             
             <div class="signup-top">
-                <h2 class="signup-header">Sign up</h2>
+                <h2 class="signup-header">edit profile</h2>
                 <div class="input-wrap">
-                    <input type="text" id="first-name" placeholder="First Name">
+                    <input type="text" id="edit-first-name" placeholder="Edit First Name">
                 </div>
                 <div class="input-wrap">
-                    <input type="text" id="last-name" placeholder="Last Name">
+                    <input type="text" id="edit-last-name" placeholder="Edit Last Name">
                 </div>
                 <div class="input-wrap">
-                    <input type="text" id="user-name" placeholder="User Name">
+                    <input type="text" id="edit-user-name" placeholder="Edit User Name">
                 </div>
                 <div class="input-wrap">
-                    <input type="email" id="email" placeholder="Email">
+                    <input type="email" id="edit-email" placeholder="Edit Email">
                 </div>
-                <div class="input-wrap">
-                    <input type="date" id="b-date" placeholder="Date Of Birth">
+                <!-- <div class="input-wrap">
+                    <input type="date" id="edit-b-date" placeholder="Edit Date Of Birth">
                 </div>
+            -->
                 <div class="input-wrap">
-                    <input type="password" id="password" placeholder="Password">
-                </div>
-    
-                <div class="input-wrap">
-                    <input type="checkbox" >
-                    <p class="terms">Accept the <span>Terms and Conditions</span></p>
-                </div>
-                
-                <div class="input-wrap">
-                    <button type="submit" id="submit-button">Submit</button>
-                    <p class="terms">Already have an account? <a href="login-menu.html"><span>Login</span></a></p>
+                    <button type="submit"  id="save-changes-button">Save Changes</button>
+                  
                 </div>
             </div>
            
@@ -84,7 +75,6 @@
         
 
     </div>
-
     <footer class="footer">
         <div class="slogan">Slogan</div>
         <div class="socialmedia">
@@ -122,5 +112,4 @@
 
         </div>
     </footer>
-    <script src="javaScript/signup-javascript.js"></script>
 </body>
