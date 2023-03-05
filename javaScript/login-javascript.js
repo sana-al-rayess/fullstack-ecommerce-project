@@ -33,20 +33,31 @@ signin_btn.addEventListener('click', signin);
 
 
 
+
+  
 function signin() {
     let username = document.getElementById('login-user-name').value;
     let password = document.getElementById('login-password').value;
     let data = new FormData();
     data.append('username', username);
     data.append('password', password);
-    axios.post('http://localhost/fullstack-ecommerce-project/login.php', data).then(function (res) {
-        console.log(res.data)
-        // window.localStorage.setItem('user_id', res.data.user_id)
-        // window.sessionStorage.setItem('user_id', res.data.user_id)
-        console.log(window.sessionStorage.getItem('user_id'))
-
+    axios.post('http://localhost/fullstack-ecommerce-project/login.php', data)
+    .then(function (res) {
+      console.log(res.data)
+      if (res.data.response === "logged in") {
+        // Save user ID in sessionStorage
+        window.sessionStorage.setItem('user_id', res.data.id);
+        
+        window.location.href = 'main.html';
+      } else if (res.data.response === "user not found") {
+        
+        alert("User not found.");
+      } else if (res.data.response === "Incorrect password") {
+       
+        alert("Incorrect password.");
+      }
     }).catch(function (err) {
-        console.log(err);
-    })
-
-}
+      console.log(err);
+    });
+  }
+  

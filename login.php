@@ -19,13 +19,11 @@ if ($num_rows == 0) {
     
     if (password_verify($password, $hashed_password)) {
         $response['response'] = "logged in";
-        $response['user_id'] = $id;
-        $response['username'] = $username;
-        $response['first_name'] = $first_name;
-        $response['last_name'] = $last_name;
+       
     } else {
         $response["response"] = "Incorrect password";
     }
 }
 
 echo json_encode($response);
+
