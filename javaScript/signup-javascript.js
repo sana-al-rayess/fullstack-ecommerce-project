@@ -54,7 +54,7 @@ const userData = {
 
 });
 
-let signup_btn = document.getElementById('signup');
+let signup_btn = document.getElementById('submit-button');
 signup_btn.addEventListener('click', signup);
 
 
@@ -76,7 +76,7 @@ function signup() {
     
     axios({
         "method": "post",
-        "url": "http://localhost/jewellery_backend/signup.php",
+        "url": "http://localhost/fullstack-ecommerce-project/signup.php",
         "data": data
     }).then((result) => {
         console.log(result)

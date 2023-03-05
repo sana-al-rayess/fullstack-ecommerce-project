@@ -27,7 +27,7 @@ console.log(data);
 });
 
 
-let signin_btn = document.getElementById('signin')
+let signin_btn = document.getElementById('login-button')
 
 signin_btn.addEventListener('click', signin);
 
@@ -39,7 +39,7 @@ function signin() {
     let data = new FormData();
     data.append('username', username);
     data.append('password', password);
-    axios.post('http://localhost/jewellery_backend/login.php', data).then(function (res) {
+    axios.post('http://localhost/fullstack-ecommerce-project/login.php', data).then(function (res) {
         console.log(res.data)
         // window.localStorage.setItem('user_id', res.data.user_id)
         // window.sessionStorage.setItem('user_id', res.data.user_id)
