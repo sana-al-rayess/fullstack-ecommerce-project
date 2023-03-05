@@ -5,7 +5,7 @@ $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
 $username = $_POST['username'];
 $password = $_POST['password'];
-// $email = $_POST["email"];
+$email = $_POST["email"];
 $role = $_POST["role"];
 
 
@@ -20,8 +20,8 @@ $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 if ($username_exists > 0) {
     $response['status'] = "failed";
 } else {
-    $query = $mysqli->prepare('insert into users(username,password,first_name,last_name,role) values(?,?,?,?,?)');
-    $query->bind_param('ssssss', $username, $hashed_password, $first_name, $last_name, $role);
+    $query = $mysqli->prepare('insert into users(username,password,first_name,last_name,email,role) values(?,?,?,?,?)');
+    $query->bind_param('ssssss', $username, $hashed_password, $first_name, $last_name, $email, $role);
     $query->execute();
     $response['status'] = "success";
 }
