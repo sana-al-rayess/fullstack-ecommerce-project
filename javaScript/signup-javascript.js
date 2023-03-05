@@ -2,7 +2,7 @@ const firstNameInput = document.querySelector('#first-name');
 const lastNameInput = document.querySelector('#last-name');
 const userNameInput = document.querySelector('#user-name');
 const emailInput = document.querySelector('#email');
-const bDateInput = document.querySelector('#b-date');
+// const bDateInput = document.querySelector('#b-date');
 const passwordInput = document.querySelector('#password');
 
 const checkbox = document.querySelector('input[type="checkbox"]');
@@ -45,7 +45,7 @@ const userData = {
     lastName: lastNameInput.value,
     userName: userNameInput.value,
     email: emailInput.value,
-    dateOfBirth: bDateInput.value,
+    // dateOfBirth: bDateInput.value,
     password: passwordInput.value,
   };
   const data = JSON.stringify(userData);
@@ -81,7 +81,7 @@ function signup() {
     }).then((result) => {
         console.log(result)
         if (result.data.status == "success") {
-            alert("signed up")
+            alert("You have signed up successfully!")
         }
     }).catch((err) => {
         console.error(err)
