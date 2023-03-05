@@ -216,12 +216,23 @@
     flex-direction: column;
 }
 .browse_button{
-    align-self: center;
-    text-align: center;
-    background-color: #A68D60;
-    color: #141414;
     cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    background-color: #BFA87E;
+    margin-right: 16px;
+    transition: 500ms ease all;
 }
 .browse_button :hover{
     opacity: 0.5;
+}
+.empty_cart{
+    font-size: 30px;
+}
+.total_price{
+    margin-left: 30px;
+    font-size: large;
 }
