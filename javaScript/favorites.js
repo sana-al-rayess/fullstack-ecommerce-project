@@ -17,9 +17,15 @@ itemImages.forEach(itemImage => {
         const productId = product.id;
 
         // Get the product data from the dictionary using the product ID as the key
-        const productDescription = productData[productId].description;
+        const productDataItem = productData[productId];
 
-        // Do something with the product description, such as display it in a modal
-        showModal(productDescription);
+        // Do something with the product data, such as display it in the console
+        console.log(productDataItem);
     });
 });
+
+// Convert the productData dictionary to a JSON string
+const productDataJSON = JSON.stringify(productData);
+
+// Display the productDataJSON string in the console
+console.log(productDataJSON);
