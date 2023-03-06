@@ -17,7 +17,7 @@ if ($num_rows == 0) {
     $response['response'] = "user not found";
 } else {
     
-    if (password_verify($password1, $password)) {
+    if ($num_rows == 1) {
         $response['response'] = "logged in";
        
     } else {
