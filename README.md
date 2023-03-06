@@ -37,6 +37,12 @@
 <li>As an admin, I want to be able to view a list of registered users on the website and their associated information, so that I can monitor the website's user base.</li>
 <h3 align="left">Color Palette</h3>
 <img src="https://imgur.com/yOqK2tT" alt="color1"/>
+<ul>
+<li>#F5EFED</li>
+<li>#F2E2C4</li>
+<li>#A68D60</li>
+</ul>
+<h3 align="left">Wireframes</h3>
 
 
 
