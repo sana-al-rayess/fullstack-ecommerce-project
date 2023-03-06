@@ -48,7 +48,7 @@ function signin() {
         // Save user ID in sessionStorage
         window.sessionStorage.setItem('admin_id', res.data.id);
         
-        window.location.href = 'admin-panel.html';
+        window.location.href = '../frontend/admin-panel.html';
       } else if (res.data.response === "user not found") {
         
         alert("User not found.");
