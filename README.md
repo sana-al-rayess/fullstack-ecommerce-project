@@ -39,7 +39,7 @@
 
 
 
-<h1 align="left">color palette:</h1><br>
+<h1 align="left">Color Palette:</h1><br>
 <img align="center" src="./images/palette1.png"><br><br>
 
 <h1 align="left">Wireframes:</h1><br>
@@ -74,3 +74,19 @@
 | cart | admin panel | Earings |
 | --- | --- | --- |
 | ![Image 1](./images/implement/7.png) | ![Image 2](./images/implement/8.png) | ![Image 3](./images/implement/9.png) |
+
+<br><h1 align="left">Prerequisites:</h1><br>
+<ul>
+<li>A computer with an internet connection</li>
+<li>A web browser</li>
+<li>Git installed on your computer</li>
+<li>A code editor such as Visual Studio Code</li>
+<li>A local web server like Apache installed on your computer</li>
+<li>A database management system like MySQL</li>
+
+<br><h1 align="left">Steps:</h1>
+<ul>
+<li>Clone the ecommerce project repository from GitHub onto your local computer using Git command: git clone https://github.com/ecommerce_project.git</li>
+<li>Navigate to the project directory using the terminal or command prompt.</li>
+<li>Open the project in your code editor.</li>
+<li>Now you can run the project</li>
