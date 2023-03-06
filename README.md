@@ -34,4 +34,9 @@
 <li>As a user, I want to be able to edit my account information such as my name, email, and shipping/billing address so that my orders are delivered correctly.</li>
 <li>As an admin, I want to be able to add/edit/remove products to the website, including their name, description, price, and quantity so that website stays up to date.
 </li>
-<li>As an admin, I want to be able to view a list of registered users on the website and their associated information, so that I can manage</li>
+<li>As an admin, I want to be able to view a list of registered users on the website and their associated information, so that I can monitor the website's user base.</li>
+<h3 align="left">Color Palette</h3>
+<img src="./images/palette.png" alt="color1" width="40" height="40"/>
+
+
+
