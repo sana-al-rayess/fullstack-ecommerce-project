@@ -206,8 +206,20 @@ body {
   flex-grow: 1;
   background-color:#F5EFED;
   } */
-
+.down {
+  display: flex;
+  justify-content: space-between;
+}
  
+.main-title {
+  background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
  
 .image-diamond {
   height: 70px;
