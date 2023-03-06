@@ -18,9 +18,9 @@
   </li>
   <li><a href="https://youtu.be/Iy7oFI76FpE" >Abdelrahman Gamal</a></li>
   <li><a href="https://youtu.be/JttTcnidSdQ">Traversy Media</a></li>
-  </ul>
+  </ul><br>
 
-<h3 align="left">User Stories</h3>
+<h1 align="left">User Stories</h1>
 <ul><li>As a registered user, I want to be able to login to the website with my email address and password so that I can access my account and make purchases.</li>
 <li>As an unregistered user, I want to be able to create a new account on the website with my email address, password, name, and shipping/billing address so that I can make purchases and have them delivered to me.</li>
 <li>As a user, I want to be able to reset my password if I forget it by providing my email address and following a password reset process so that I can access my account and make purchases.</li>
@@ -34,9 +34,43 @@
 <li>As a user, I want to be able to edit my account information such as my name, email, and shipping/billing address so that my orders are delivered correctly.</li>
 <li>As an admin, I want to be able to add/edit/remove products to the website, including their name, description, price, and quantity so that website stays up to date.
 </li>
-<li>As an admin, I want to be able to view a list of registered users on the website and their associated information, so that I can monitor the website's user base.</li>
-<h3 align="left">Color Palette</h3>
-<img src="https://imgur.com/yOqK2tT" alt="color1"/>
+<li>As an admin, I want to be able to view a list of registered users on the website and their associated information, so that I can monitor the website's user base.</li><br><br>
 
 
 
+
+<h1 align="left">color palette:</h1><br>
+<img align="center" src="./images/palette1.png"><br><br>
+
+<h1 align="left">Wireframes:</h1><br>
+
+| main page | Earings | chekkout |
+| --- | --- | --- |
+| ![Image 1](./images/wireframes/1.png) | ![Image 2](./images/wireframes/2.png) | ![Image 3](./images/wireframes/3.png) |
+
+| login | sign up | admin page |
+| --- | --- | --- |
+| ![Image 1](./images/wireframes/8.png) | ![Image 2](./images/wireframes/9.png) | ![Image 3](./images/wireframes/10.png) |
+
+
+| Edit profile | necklaces | rings |
+| --- | --- | --- |
+| ![Image 1](./images/wireframes/4.png) | ![Image 2](./images/wireframes/5.png) | ![Image 3](./images/wireframes/6.png) |
+
+<br>
+<h1 align="left">Implimentation:</h1><br>
+
+
+| Main page | Main page | Main page |
+| --- | --- | --- |
+| ![Image 1](./images/implement/1.png) | ![Image 2](./images/implement/2.png) | ![Image 3](./images/implement/3.png) |
+
+
+| necklaces | sigup | login |
+| --- | --- | --- |
+| ![Image 1](./images/implement/4.png) | ![Image 2](./images/implement/5.png) | ![Image 3](./images/implement/6.png) |
+
+
+| cart | admin panel | Earings |
+| --- | --- | --- |
+| ![Image 1](./images/implement/7.png) | ![Image 2](./images/implement/8.png) | ![Image 3](./images/implement/9.png) |
