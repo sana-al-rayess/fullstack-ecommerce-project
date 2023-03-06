@@ -1,7 +1,8 @@
 <?php
+
 include('connection.php');
 
-// Get the ID of the item to delete from the request body
+// Get the ID of the item to delete
 $id = $_POST['id'];
 
 // Check if the connection was successful
@@ -25,4 +26,5 @@ if (mysqli_query($mysqli, $sql)) {
 
 // Close the database connection
 mysqli_close($mysqli);
+
 ?>

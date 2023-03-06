@@ -16,14 +16,13 @@
         </div>
 
         <div>
-            <form method="post" action="insert.php">
-                
+            <form id="delete-form">
                 <div class="form-group">
-                    <label for="id">Product ID</label>
-                    <input id="id" type="number">
+                    <label for="id-input">ID:</label>
+                    <input type="text" id="id-input" name="id">
                 </div>
                 <div class="form-group">
-                    <input id="del-button"class="submit-btn" type="button" value="Delete">
+                    <button class="submit-btn" type="submit" id="delete-button">Delete</button>
                 </div>
             </form>
 
