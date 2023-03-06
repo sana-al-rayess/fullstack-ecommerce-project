@@ -20,12 +20,12 @@ itemImages.forEach(itemImage => {
         const productDataItem = productData[productId];
 
         // Do something with the product data, such as display it in the console
-        // console.log(productDataItem);
+        console.log(productDataItem);
     });
 });
 
-// Convert the productData dictionary to a JSON string
+// Display the productData dictionary in the console
 const productDataJSON = JSON.stringify(productData);
 
 // Display the productDataJSON string in the console
-console.log(productDataJSON);
+//console.log(productDataJSON);
