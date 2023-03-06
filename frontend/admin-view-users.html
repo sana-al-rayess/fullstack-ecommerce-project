@@ -12,7 +12,30 @@
     <header>Admin Panel</header>
     <div class="container">
         <div class="nav-bar">
-            <div class="nav-item" onclick="window.location.href = '../frontend/admin-view-users.html';">Display Users
-            </div>
+            <div class="nav-item">Display Users</div>
         </div>
+        <div><button id="my-button">view</button></div>
+        <div>
+            <table id="users-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+
     </div>
+
+    <script src="../javaScript/admin-view-users.js"></script>
+</body>
+
+</html>
