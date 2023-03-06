@@ -20,7 +20,7 @@ itemImages.forEach(itemImage => {
         const productDataItem = productData[productId];
 
         // Do something with the product data, such as display it in the console
-        console.log(productDataItem);
+        // console.log(productDataItem);
     });
 });
 
