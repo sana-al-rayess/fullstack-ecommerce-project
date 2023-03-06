@@ -36,7 +36,7 @@
 </li>
 <li>As an admin, I want to be able to view a list of registered users on the website and their associated information, so that I can monitor the website's user base.</li>
 <h3 align="left">Color Palette</h3>
-<img src="./images/palette.png" alt="color1" width="40" height="40"/>
+<img src="https://imgur.com/yOqK2tT" alt="color1"/>
 
 
 
