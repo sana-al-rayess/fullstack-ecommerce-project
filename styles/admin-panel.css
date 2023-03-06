@@ -13,6 +13,11 @@ header {
     font-weight: bold;
     margin-bottom: 20px;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-bar {
     height: 30%;
     width: auto;
